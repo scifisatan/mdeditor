@@ -3,7 +3,7 @@ import { useState } from 'react';
 import ReactMarkdown  from 'react-markdown';
 export default function App() { 
 
-    const [markdown, setMarkdown] = useState('#sup');
+    const [markdown, setMarkdown] = useState('# sup');
 
   return (
     <div className="app">
